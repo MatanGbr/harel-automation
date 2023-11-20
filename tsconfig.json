@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "esnext",
+      "DOM"
+    ],
+    "target": "esnext",
+    "module": "esnext",
+    "rootDir": "src",
+    "outDir": "build",
+    "jsx": "react-jsx",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "src",
+    "public/import-converter.jsrter.js",
+    "../imp/src/methods/text.method.ts",
+    "../imp/src/types/user.type.ts",
+    "../imp/src/lists/text.list.ts"
+  ]
+}
